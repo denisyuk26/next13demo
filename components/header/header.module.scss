@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  height: 80px;
+  background-color: rgba(255, 255, 255, 0.4);
+  align-items: center;
+  justify-content: center;
+}
+
+.link {
+  font-size: 30px;
+  color: #000;
+  border-bottom: 3px solid transparent;
+
+  &Active {
+    border-bottom: 3px solid red;
+  }
+}

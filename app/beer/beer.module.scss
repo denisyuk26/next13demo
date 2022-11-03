@@ -1,0 +1,72 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 100%;
+  padding: 30px;
+
+  h2 {
+    text-align: center;
+    color: #fff;
+  }
+}
+
+.skeleton {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1200px;
+  width: 100%;
+  margin: 30px auto;
+}
+
+.containerS {
+  display: flex;
+  flex-direction: row;
+  max-width: 350px;
+  gap: 15px;
+  width: 100%;
+  height: 150px;
+  border-radius: 4px;
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+    padding: 10px 10px 10px 0;
+    justify-content: center;
+  }
+}
+
+.name {
+  width: 100%;
+  height: 20px;
+  background-color: #a9a9a92b;
+}
+
+.tagline {
+  width: 100%;
+  height: 20px;
+  background-color: #a9a9a92b;
+}
+
+.img {
+  width: 95px;
+  background-color: #a9a9a92b;
+  margin-left: 20px;
+}
+
+.abv {
+  width: 100%;
+  height: 20px;
+  background-color: #a9a9a92b;
+}
+
+.yeast {
+  width: 100%;
+  height: 15px;
+  background-color: #a9a9a92b;
+}
